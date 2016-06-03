@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Solicitar Tarifa Social</string>
+		<key>description</key>
+		<string>Si sos jubilado o pensionado, percibís una AUH o un subsidio de desempleo, o te encontrás en situación de pobreza, podés tramitar la tarifa social de transporte, agua corriente y cloacas (en CABA y alrededores) y de gas y electricidad (en todo el país).</string>
+		<key>icon</key>
+		<string>checkIcon.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Renovar el DNI</string>
+		<key>description</key>
+		<string>Si cambiaste el domicilio, perdiste el documento, te lo robaron o se estropeó, sacá uno nuevo. Con el viejo DNI verde, Libreta Cívica o de Enrolamiento y menos de 75 años, hacelo antes del 1 de agosto.</string>
+		<key>icon</key>
+		<string>userIcon.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Tramitar turnos para ANSES</string>
+		<key>description</key>
+		<string>Para sacar, consultar o cancelar turnos en ANSES (ya sea por jubilación o pensión, asignación familiar, subsidio por desempleo, ayuda escolar anual, etc.).</string>
+		<key>icon</key>
+		<string>clockIcon.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Consultar calendario de pago de ANSES</string>
+		<key>description</key>
+		<string>Para conocer fecha de cobro, si sos jubilado o pensionado, beneficiario de una AUH o recibís algún tipo de subsidio o prestación de ANSES.</string>
+		<key>icon</key>
+		<string>calendarIcon.png</string>
+	</dict>
+</array>
+</plist>

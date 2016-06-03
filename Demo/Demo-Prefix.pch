@@ -1,0 +1,34 @@
+//
+//  Demo-Prefix.pch
+//  Demo
+//
+//  Created by Sergio Cirasa on 6/1/16.
+//  Copyright © 2016 Ministerio de Modernizacion. All rights reserved.
+//
+
+#ifndef Demo_Prefix_pch
+#define Demo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Demo_Prefix_pch */
+
+#import "LoaderView.h"
+#import "UIStoryboard+App.h"
+#import "UIColor+App.h"
+#import "UIFont+App.h"
+#import "UIView+FrameHelp.h"
+#import "UIView+Inspectable.h"
+#import "UIView+Toast.h"
+#import "NSString+Utilities.h"
+#import "UIImage+Resize.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#define kItunesUrl @"https://itunes.apple.com/us/developer/presidencia-la-nacion-argentina/id1107620791"
+
+//Parser Methods
+#define getValue(data,key) (data[key]?([data[key] isKindOfClass:[NSNull class]]?nil:data[key]):nil)
+#define getIntValue(data,key) (data[key]?([data[key] isKindOfClass:[NSNull class]]?0:[data[key] integerValue]):0)
+#define getFloatValue(data,key) (data[key]?([data[key] isKindOfClass:[NSNull class]]?0:[data[key] floatValue]):0)
+#define getBoolValue(data,key) (data[key]?([data[key] isKindOfClass:[NSNull class]]?0:[data[key] boolValue]):0)

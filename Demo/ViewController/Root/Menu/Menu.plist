@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>formIcon.png</string>
+		<key>title</key>
+		<string>Formulario</string>
+		<key>event_name</key>
+		<string>onFormAction</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>listIcon.png</string>
+		<key>title</key>
+		<string>Lista</string>
+		<key>event_name</key>
+		<string>onListAction</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>gridIcon.png</string>
+		<key>title</key>
+		<string>Grilla</string>
+		<key>event_name</key>
+		<string>onGridAction</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>abouticon.png</string>
+		<key>title</key>
+		<string>Acerca de</string>
+		<key>event_name</key>
+		<string>onAboutAction</string>
+	</dict>
+</array>
+</plist>
